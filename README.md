@@ -30,8 +30,15 @@ Without a model key they still check the sandbox part and skip the agent.
 | [04_pause_resume.py](04_pause_resume.py) | Pause keeps memory and files while billing stops; resume brings the same session back |
 | [05_langchain_tool.py](05_langchain_tool.py) | A code tool for LangChain and LangGraph agents with one sandbox per conversation |
 | [06_deep_agents.py](06_deep_agents.py) | Deep Agents with the official E2B backend (`langchain-e2b`) |
+| [07_parallel_rollouts.py](07_parallel_rollouts.py) | Many candidate solutions scored in parallel, one sandbox each, with wall time and cost (evals, RL) |
+| [08_network_isolation.py](08_network_isolation.py) | No internet, an outbound allowlist, and public URLs that need a token |
+| [09_data_analysis.py](09_data_analysis.py) | Upload a CSV, analyse it with pandas in the sandbox, download chart and results |
+| [10_custom_template.py](10_custom_template.py) | Build a template with your packages once, then start ready sandboxes from it |
+| [11_run_repo_tests.py](11_run_repo_tests.py) | Clone a repository, install it and run its tests with live output |
+| [typescript/](typescript) | The same from TypeScript: code interpreter, commands, parallel sandboxes |
 
-Run any of them with `python 01_code_interpreter.py`.
+Run any of them with `python 01_code_interpreter.py`. Trial accounts allow 5 sandboxes at a time, so
+`07_parallel_rollouts.py` defaults to `CONCURRENCY=5`.
 
 ## Good to know
 

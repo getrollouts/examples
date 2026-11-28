@@ -1,0 +1,17 @@
+{
+  "name": "getrollouts-examples-ts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "code-interpreter": "tsx code_interpreter.ts",
+    "parallel": "tsx parallel.ts"
+  },
+  "dependencies": {
+    "@e2b/code-interpreter": "^2.0.0",
+    "e2b": "^2.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
