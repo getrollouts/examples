@@ -3,3 +3,7 @@ __pycache__/
 chart.png
 venv/
 .venv/
+
+# local working files, not part of the repo
+screenshots/
+/*.png
